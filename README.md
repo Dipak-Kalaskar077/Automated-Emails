@@ -17,15 +17,15 @@ Before you begin, ensure that you have the following installed on your system:
 
 ## Libraries Used
 
-* smtplib: Used to send emails through SMTP servers like Gmail, Yahoo, etc.
-email.mime.multipart: Used to create the email structure (sender, receiver, subject, etc.).
-email.mime.base and email.encoders: Used for adding attachments (like your resume).
-pandas: Used if you want to manipulate or manage data, such as the list of HR emails (if stored in a file).
+**smtplib:** Used to send emails through SMTP servers like Gmail, Yahoo, etc.
+**email.mime.multipart:** Used to create the email structure (sender, receiver, subject, etc.).
+**email.mime.base and email.encoders:** Used for adding attachments (like your resume).
+**pandas:** Used if you want to manipulate or manage data, such as the list of HR emails (if stored in a file).
 
 ## Steps Followed to Execute the Script
 Below are the detailed steps followed to execute the script:
 
-1. Install Required Python Libraries
+**1. Install Required Python Libraries**
 First, we install the required libraries using pip. The libraries needed for the script are pandas, smtplib, and email. Use the following command in your terminal:
 
 ''pip install pandas smtplib email ''
