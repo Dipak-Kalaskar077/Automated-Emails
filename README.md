@@ -29,6 +29,7 @@ Before you begin, ensure that you have the following installed on your system:
 Below are the detailed steps followed to execute the script:
 
 **1. Install Required Python Libraries**
+
 First, we install the required libraries using pip. The libraries needed for the script are pandas, smtplib, and email. Use the following command in your terminal:
 
     pip install pandas smtplib email 
@@ -36,37 +37,36 @@ First, we install the required libraries using pip. The libraries needed for the
 smtplib is part of the Python standard library, so no installation is needed for that.
 pandas is used for handling data (such as HR email lists stored in a CSV file).
 
-2. Create Gmail App Password
+**2. Create Gmail App Password**
+
 We use an App Password instead of a regular Gmail password for security purposes.
 Go to your Google Account settings and create an app password.
+
 Make sure 2-Step Verification is enabled for your account. Then, under the "Security" section, generate an app password specifically for the Python email automation script.
 
-3. Set Up the Script with Your Credentials
+**3. Set Up the Script with Your Credentials**
+
 In the Python script, you'll need to input your Gmail email address and the generated App Password:
 
-python
-Copy
-Edit
-sender_email = "kalaskardipak77@gmail.com"
-password = "your_app_password_here"
-Replace your_app_password_here with the App Password generated in Step 2.
+    sender_email = "kalaskardipak77@gmail.com"
+    password = "your_app_password_here"
+    Replace your_app_password_here with the App Password generated in Step 2.
 
-4. List of HR Emails
+**4. List of HR Emails**
+
 You can add the list of HR email addresses in the hr_emails list:
 
-python
-Copy
-Edit
-hr_emails = [
-    "hr1@example.com",
-    "hr2@example.com",
-    ...
-]
 
-5. Customize the email body
+    hr_emails = [
+        "hr1@example.com",
+        "hr2@example.com",
+        ...
+    ]
 
-6. Run the Script
+**5. Customize the email body**
+
+**6. Run the Script**
+
 Once everything is set up, run the script using the following command:
-``
-python send_emails.py
-``
+        
+        python send_emails.py
