@@ -31,8 +31,8 @@ Below are the detailed steps followed to execute the script:
 **1. Install Required Python Libraries**
 First, we install the required libraries using pip. The libraries needed for the script are pandas, smtplib, and email. Use the following command in your terminal:
 
-``` bash 
-pip install pandas smtplib email 
+    ``` bash 
+    pip install pandas smtplib email 
 
 smtplib is part of the Python standard library, so no installation is needed for that.
 pandas is used for handling data (such as HR email lists stored in a CSV file).
