@@ -11,7 +11,7 @@ Before you begin, ensure that you have the following installed on your system:
 
 2. **Pandas**:
    Install the `pandas` library using the following command:
-   ```bash
+   ```
    pip install pandas
 
 
