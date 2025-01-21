@@ -8,12 +8,14 @@ import os  # For file path handling
 
 # Email credentials
 sender_email = "kalaskardipak77@gmail.com"
-password = "cvpw jmef yasa lqos"  # Use an App Password for security
+password = ""  # Use an App Password for security
 
 # List of HR email addresses
 hr_emails = [
     "vishalpawar9697@gmail.com",
+    "gauravjain@manhuntconsulting.com"
 ]
+
 
 # Email content
 subject = "Application for a Position that Matches My Skills"
@@ -32,6 +34,7 @@ Best regards,
 Dipak D. Kalaskar  
 📞 +91 8830823364  
 🔗 linkedin.com/in/dipak-kalaskar 
+🔗 github.com/Dipak-Kalaskar077
 ✉️ er.ddkalaskar@gmail.com  
 """
 
