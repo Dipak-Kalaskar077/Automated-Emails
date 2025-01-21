@@ -61,3 +61,9 @@ hr_emails = [
 ]
 
 5. Customize the email body
+
+6. Run the Script
+Once everything is set up, run the script using the following command:
+``
+python send_emails.py
+``
