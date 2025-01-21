@@ -12,7 +12,7 @@ password = "cvpw jmef yasa lqos"  # Use an App Password for security
 
 # List of HR email addresses
 hr_emails = [
-    "vishalpawar9697@gmail.com"
+    "vishalpawar9697@gmail.com",
 ]
 
 # Email content
