@@ -2,6 +2,7 @@
 Send emails automatically using script
 
 Prerequist :- Python Installed (https://www.python.org/downloads/)
+
               Pandas (pip Install pandas)
               
 
