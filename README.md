@@ -49,6 +49,11 @@ Make sure 2-Step Verification is enabled for your account. Then, under the "Secu
 In the Python script, you'll need to input your Gmail email address and the generated App Password:
 
     sender_email = "kalaskardipak77@gmail.com"
+
+
+Go to google --> Search Gmail App Password --> generate gmail app password (https://myaccount.google.com/apppasswords) -> Sign in -> Give App Name (Gmail) -> password
+
+    
     password = "your_app_password_here"
     Replace your_app_password_here with the App Password generated in Step 2.
 
